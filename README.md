@@ -10,4 +10,4 @@
 
 # 指令记录：
 ## windows下将当前路径下所有文件增加.md后缀
-	for %f in (*) do ren "%f" "%f.md"
+	for %i in (*.*) do ren "%i" "%~ni.md"
